@@ -1,8 +1,7 @@
 name: bloc_for_all
 description: A new Flutter package.
 version: 0.0.1
-author:
-  - Ashish Rawat <ashishrawat2911@gmail.com>
+
 homepage: https://github.com/ashishrawat2911/bloc_for_all
 
 environment:

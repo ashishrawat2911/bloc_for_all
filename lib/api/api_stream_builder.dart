@@ -12,9 +12,9 @@ class ApiStreamBuilder<T> extends StatelessWidget {
 
   ApiStreamBuilder(
       {@required this.stream,
-        @required this.dataWidget,
-        @required this.loadingWidget,
-        @required this.errorWidget});
+      @required this.dataWidget,
+      @required this.loadingWidget,
+      @required this.errorWidget});
 
   @override
   Widget build(BuildContext context) {
@@ -39,4 +39,3 @@ class ApiStreamBuilder<T> extends StatelessWidget {
     );
   }
 }
-

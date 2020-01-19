@@ -3,13 +3,12 @@ import 'dart:async';
 import 'package:bloc_for_all/api/api_response.dart';
 
 class BaseApiBloc<T> {
-  StreamController _streamController = StreamController<ApiResponse<T>>.broadcast();
+  StreamController _streamController =
+      StreamController<ApiResponse<T>>.broadcast();
 
-  StreamSink<ApiResponse<T>> get apiDataSink =>
-      _streamController.sink;
+  StreamSink<ApiResponse<T>> get apiDataSink => _streamController.sink;
 
-  Stream<ApiResponse<T>> get apiDataSinkStream =>
-      _streamController.stream;
+  Stream<ApiResponse<T>> get apiDataSinkStream => _streamController.stream;
 
   dispose() {
     _streamController?.close();

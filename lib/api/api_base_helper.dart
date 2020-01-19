@@ -5,7 +5,6 @@ import 'dart:io';
 import 'package:bloc_for_all/api/app_exceptions.dart';
 import 'package:http/http.dart' as http;
 
-
 class ApiBaseHelper {
   String baseUrl = "http://api.themoviedb.org/3/";
 
